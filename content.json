@@ -1,0 +1,214 @@
+{
+  "header": {
+    "logoAlt": "SGRO Logo",
+    "nav": [
+      {
+        "text": "About",
+        "link": "#about"
+      },
+      {
+        "text": "Action Plan",
+        "link": "#action-plan"
+      },
+      {
+        "text": "Gallery",
+        "link": "#gallery"
+      },
+      {
+        "text": "Join Us",
+        "link": "#join"
+      },
+      {
+        "text": "Contact",
+        "link": "#contact"
+      }
+    ]
+  },
+  "hero": {
+    "title": "SGRO",
+    "subtitle": "A new era of student governments",
+    "ctaText": "Join the Movement",
+    "ctaLink": "#join",
+    "heroImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1920&q=80"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are the <b>student government reform organization</b> run, a non profit organization by students seated in Vienna.",
+    "mission": "Our goal is to build and reform student governments all over the world. Student governments are a core part of many schools' student leadership activities encouraging student led action and building invaluable leadership skills.",
+    "problem": "Unfortunately, not all schools have student governments and some schools which do have student governments don't have the best track record of fulfilling their promises. This is a common trend across schools.",
+    "solution": "SGRO helps schools create and reform structures of their student government to fulfill these 3 core principles:",
+    "aboutImage": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1000&q=80",
+    "principles": [
+      {
+        "title": "Accountability",
+        "text": "Making sure student government members are doing their best to fulfill their promises."
+      },
+      {
+        "title": "Representation",
+        "text": "The interests of the student government's constituents are proportionally represented."
+      },
+      {
+        "title": "Transparency",
+        "text": "Students are kept up to date about what their elected members are working on."
+      },
+      {
+        "title": "Resources",
+        "text": "Making sure the student government has enough physical and volunteer resources at their disposal to fulfil their goals."
+      }
+    ]
+  },
+  "actionPlan": {
+    "title": "Our Action Plan",
+    "description": "SGRO has created a comprehensive guide and template charter on how to create a successful student government. This has been tried and implemented in other schools before.",
+    "support": "We offer support and resources to partnering schools and clubs to guide them in creating or reforming their student government. Our team is at your disposal! HELP US HELP YOU!",
+    "actionImage": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?auto=format&fit=crop&w=1920&q=80"
+  },
+  "gallery": {
+    "title": "Our Community",
+    "images": [
+      "Pictures/sgro-3.jpg",
+      "Pictures/sgro-4.jpg",
+      "Pictures/sgro-5.jpg"
+    ]
+  },
+  "join": {
+    "title": "Join Us",
+    "cards": [
+      {
+        "title": "BECOME A PARTNERING CLUB",
+        "text": "Become a SGRO accredited club and help your school create or improve their student government! You will be provided constant support from SGRO and all the resources needed to create or reform your school's student government!",
+        "buttonText": "Apply Now",
+        "buttonLink": "form?type=join-club"
+      },
+      {
+        "title": "BECOME A PARTNERING SCHOOL",
+        "text": "Let's work together! Register below for support from SGRO and for access to our resources! Together, we can set up a successful student government for your school!",
+        "buttonText": "Register School",
+        "buttonLink": "form?type=join-school"
+      },
+      {
+        "title": "BECOME A SGRO MEMBER",
+        "text": "JOIN THE SGRO TEAM! Become part of our mission to make better student governments around the world! If you're looking to become a member of a SGRO club in your school, contact your school's SGRO club contact person… SGRO can help you find contact info if consent has been provided by the club administrator.",
+        "buttonText": "Join Team",
+        "buttonLink": "form?type=join-member"
+      }
+    ]
+  },
+  "forms": {
+    "join-club": {
+      "title": "Become a Partnering Club",
+      "fields": [
+        {
+          "label": "Club Name*",
+          "type": "text",
+          "id": "club-name"
+        },
+        {
+          "label": "School Name*",
+          "type": "text",
+          "id": "school-name"
+        },
+        {
+          "label": "Contact Email*",
+          "type": "email",
+          "id": "contact-email"
+        },
+        {
+          "label": "Why do you want to become a partnering club?*",
+          "type": "textarea",
+          "id": "message"
+        }
+      ],
+      "submitText": "Submit Application"
+    },
+    "join-school": {
+      "title": "Become a Partnering School",
+      "fields": [
+        {
+          "label": "School Name*",
+          "type": "text",
+          "id": "school-name"
+        },
+        {
+          "label": "Administrator Name*",
+          "type": "text",
+          "id": "admin-name"
+        },
+        {
+          "label": "Administrator Email*",
+          "type": "email",
+          "id": "admin-email"
+        },
+        {
+          "label": "What support do you need?*",
+          "type": "textarea",
+          "id": "needs"
+        }
+      ],
+      "submitText": "Register School"
+    },
+    "join-member": {
+      "title": "Join the Team",
+      "fields": [
+        {
+          "label": "Full Name*",
+          "type": "text",
+          "id": "full-name"
+        },
+        {
+          "label": "Email*",
+          "type": "email",
+          "id": "email"
+        },
+        {
+          "label": "Interested Role",
+          "type": "text",
+          "id": "role",
+          "required": false
+        },
+        {
+          "label": "Why do you want to join?*",
+          "type": "textarea",
+          "id": "motivation"
+        },
+        {
+          "label": "Resume/CV*",
+          "type": "file",
+          "id": "resume",
+          "required": true
+        }
+      ],
+      "submitText": "Submit Application"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "fields": [
+      {
+        "label": "Name*",
+        "type": "text",
+        "id": "name"
+      },
+      {
+        "label": "Organization (if applicable)",
+        "type": "text",
+        "id": "organization",
+        "required": false
+      },
+      {
+        "label": "Email*",
+        "type": "email",
+        "id": "email"
+      },
+      {
+        "label": "Message*",
+        "type": "textarea",
+        "id": "message"
+      }
+    ],
+    "submitText": "SUBMIT"
+  },
+  "footer": {
+    "copyright": "© 2025 SGRO. All rights reserved."
+  }
+}
